@@ -1,0 +1,34 @@
+#DetailTabbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  .tabbarContainer {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #93ec8b, var(--adm-color-primary));
+    .tabbarBtn {
+      flex: 1;
+      text-align: center;
+      padding: 10px 0;
+      color: #fff;
+    }
+    .leftTabbar {
+      position: relative;
+      &::after {
+        position: absolute;
+        content: '';
+        right: 0;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        background-color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+#Profile .orderList {
+  padding: 14px;
+}
+#Profile .orderList .orderItem {
+  padding: 14px;
+  background-color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Profile .orderList .orderItem img {
+  width: 16px;
+}
+#Profile .orderList .orderItem:active {
+  background-color: #fafafa;
+}

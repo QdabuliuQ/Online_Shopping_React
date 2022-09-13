@@ -1,0 +1,11 @@
+#HomeNav {
+  display: flex;
+  margin: 5px 0 20px;
+}
+#HomeNav .navItem {
+  flex: 1;
+  text-align: center;
+}
+#HomeNav .navItem img {
+  width: 75%;
+}

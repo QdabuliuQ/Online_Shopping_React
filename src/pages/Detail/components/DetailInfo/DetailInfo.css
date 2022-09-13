@@ -1,0 +1,36 @@
+#DetailInfo {
+  padding: 7px 14px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+#DetailInfo .leftInfo {
+  flex: 9;
+  margin-right: 10px;
+}
+#DetailInfo .leftInfo .infoPrice {
+  font-size: 22px;
+  color: var(--adm-color-primary);
+  font-weight: bold;
+}
+#DetailInfo .leftInfo .infoTitle {
+  font-size: 15px;
+}
+#DetailInfo .rightInfo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  position: relative;
+}
+#DetailInfo .rightInfo::after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 100%;
+  background-color: #cdcdcd;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

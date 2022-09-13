@@ -1,0 +1,19 @@
+.SearchNavContainer #SearchNav {
+  padding: 8px 12px;
+  background-color: var(--adm-color-primary);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+.SearchNavContainer #SearchNav .searchContainer {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 7px 0;
+  text-align: center;
+}
+.SearchNavContainer #SearchNav .searchNavBox {
+  position: relative;
+  top: 0;
+}

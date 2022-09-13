@@ -1,0 +1,9 @@
+.adm-result-page-footer {
+  padding: 0;
+}
+.adm-result-page-footer-btn {
+  width: 40vw !important;
+  max-width: 40vw !important;
+  font-size: 14px !important;
+  margin-bottom: 7vh;
+}

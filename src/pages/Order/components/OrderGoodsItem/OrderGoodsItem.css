@@ -1,0 +1,37 @@
+.OrderGoodsItem {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+.OrderGoodsItem:not(:last-child) {
+  box-sizing: border-box;
+  border-bottom: 1px solid #dfdfdf;
+}
+.OrderGoodsItem .rightBox {
+  margin-left: 15px;
+}
+.OrderGoodsItem .rightBox .topBox {
+  font-size: 15px;
+}
+.OrderGoodsItem .rightBox .bottomBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+}
+.OrderGoodsItem .rightBox .bottomBox .price {
+  color: var(--adm-color-primary);
+}
+.OrderGoodsItem .rightBox .totalPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-top: 3px;
+}
+.OrderGoodsItem .rightBox .totalPrice .price {
+  font-weight: bold;
+  color: var(--adm-color-primary);
+}

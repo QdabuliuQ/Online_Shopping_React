@@ -1,0 +1,29 @@
+#DetailTable {
+  padding: 7px 14px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+#DetailTable .attrTable {
+  width: 100%;
+}
+#DetailTable .attrTable .attrItem:not(:last-child) {
+  border-bottom: 1px solid #e8e8e8;
+}
+#DetailTable .attrTable .itemTr {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 7px 0;
+}
+#DetailTable .attrTable .itemTr .attrName {
+  flex: 1;
+}
+#DetailTable .attrTable .itemTr .attrValue {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  color: var(--adm-color-primary);
+}
+#DetailTable .attrTable .valueTd {
+  text-align: center;
+}

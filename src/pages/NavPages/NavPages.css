@@ -1,0 +1,6 @@
+#routerContainer {
+  min-width: 100vw;
+  max-width: 100vw;
+  min-height: calc(100vh - 49px - 45px);
+  margin-bottom: 49px;
+}

@@ -1,0 +1,36 @@
+#DetailInfo {
+  padding: 7px 14px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+  .leftInfo {
+    flex: 9;
+    margin-right: 10px;
+    .infoPrice {
+      font-size: 22px;
+      color: var(--adm-color-primary);
+      font-weight: bold;
+    }
+    .infoTitle {
+      font-size: 15px;
+    }
+  }
+  .rightInfo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 100%;
+      background-color: #cdcdcd;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}

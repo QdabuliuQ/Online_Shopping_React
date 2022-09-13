@@ -1,0 +1,37 @@
+.OrderGoodsItem {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  &:not(:last-child) {
+    box-sizing: border-box;
+    border-bottom: 1px solid #dfdfdf;
+  }
+  .rightBox {
+    margin-left: 15px;
+    .topBox {
+      font-size: 15px;
+    }
+    .bottomBox {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 15px;
+      font-weight: bold;
+      .price {
+        color: var(--adm-color-primary);
+      }
+    }
+    .totalPrice {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 15px;
+      margin-top: 3px;
+      .price {
+        font-weight: bold;
+        color: var(--adm-color-primary);
+      }
+    }
+  }
+}

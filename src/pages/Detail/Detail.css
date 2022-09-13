@@ -1,0 +1,37 @@
+#Detail {
+  overflow: hidden;
+}
+#Detail .title {
+  margin-bottom: 7px;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#Detail .title::after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 11%;
+  content: '';
+  height: 4px;
+  background-color: var(--adm-color-primary);
+}
+#Detail .infoContainer {
+  margin-top: 46px;
+}
+#Detail .infoContainer .adm-swiper-track {
+  background-color: #fff;
+}
+#Detail .infoContainer .swiperItemContainer {
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+  background-color: #fff;
+}
+#Detail .infoContainer .swiperItemContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

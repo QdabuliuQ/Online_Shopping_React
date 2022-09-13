@@ -1,0 +1,42 @@
+#Settlement {
+  width: 100%;
+  height: 45px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 49px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Settlement .settleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding: 0 14px;
+}
+#Settlement .settleContainer .adm-checkbox {
+  --font-size: 15px;
+}
+#Settlement .settleContainer .rightContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#Settlement .settleContainer .rightContainer .totalPrice {
+  margin-right: 12px;
+}
+#Settlement .settleContainer .rightContainer .totalPrice span {
+  color: var(--adm-color-primary);
+  font-weight: bold;
+  font-size: 18px;
+}
+#Settlement .settleContainer .rightContainer .settleBtn {
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: var(--adm-color-primary);
+}

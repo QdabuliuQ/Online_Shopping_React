@@ -1,0 +1,24 @@
+#MenuInfo {
+  background-color: #fff;
+  padding: 15px;
+}
+#MenuInfo .infoItem {
+  margin-bottom: 30px;
+}
+#MenuInfo .infoItem .infoTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#MenuInfo .infoItem .infoContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 7px;
+  text-align: center;
+  font-size: 13px;
+}
+#MenuInfo .infoItem .infoContent img {
+  width: 50px;
+  aspect-ratio: 1/1;
+}

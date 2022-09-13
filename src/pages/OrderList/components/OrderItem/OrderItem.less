@@ -1,0 +1,57 @@
+.OrderItem {
+  padding: 13px;
+  background-color: #fff;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  .orderGodds {
+    display: flex;
+    align-items: center;
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+    .rightContent {
+      margin-left: 8px;
+      font-size: 14px;
+      .price {
+        color: var(--adm-color-primary);
+        font-weight: bold;
+      }
+      .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+      }
+      .otherInfo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+  .orderInfo {
+    .infoItem {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+      .price {
+        font-weight: bold;
+        color: var(--adm-color-primary);
+      }
+    }
+  }
+  .totalPrice {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 4px;
+    span {
+      font-weight: bold;
+    font-size: 16px;
+    color: var(--adm-color-primary);
+    }
+  }
+}

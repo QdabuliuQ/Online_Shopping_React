@@ -1,0 +1,41 @@
+.AddressItem {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 14px;
+}
+.AddressItem .item {
+  font-size: 14px;
+}
+.AddressItem .item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.AddressItem .item span {
+  color: #a2a2a2;
+}
+.AddressItem .topBox {
+  display: flex;
+  align-items: center;
+}
+.AddressItem .topBox div {
+  flex: 1;
+}
+.AddressItem .bottomBox {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.AddressItem .opeBox {
+  padding-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.AddressItem .opeBox .deleteItem {
+  font-size: 12px;
+}
+.AddressItem .opeBox .deleteItem span {
+  padding: 6px 14px;
+  background-color: #ff6363;
+  color: #fff;
+  border-radius: 6px;
+}

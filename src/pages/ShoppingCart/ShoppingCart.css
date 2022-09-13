@@ -1,0 +1,11 @@
+#ShoppingCart {
+  margin-bottom: 50px;
+}
+#ShoppingCart .cartContent {
+  padding-bottom: 50px;
+}
+#ShoppingCart .goodsContainer {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #fff;
+}

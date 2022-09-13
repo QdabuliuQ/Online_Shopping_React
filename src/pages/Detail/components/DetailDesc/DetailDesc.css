@@ -1,0 +1,7 @@
+#DetailDesc {
+  padding: 7px 14px 50px;
+  background-color: #fff;
+}
+#DetailDesc .title {
+  margin-bottom: 15px !important;
+}

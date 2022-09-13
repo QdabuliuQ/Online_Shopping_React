@@ -1,0 +1,9 @@
+#OrderList .listContainer {
+  padding: 13px;
+}
+#OrderList .adm-tabs {
+  background-color: #fff;
+}
+#OrderList .adm-tabs .adm-tabs-tab {
+  font-size: 14px !important;
+}

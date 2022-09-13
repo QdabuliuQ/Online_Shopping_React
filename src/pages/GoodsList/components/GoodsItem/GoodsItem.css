@@ -1,0 +1,23 @@
+.GoodsItem {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.GoodsItem .itemRight {
+  margin-left: 8px;
+}
+.GoodsItem .itemTitle {
+  font-size: 15px;
+}
+.GoodsItem .itemPrice {
+  font-weight: bold;
+  font-size: 17px;
+  color: var(--adm-color-primary);
+}
+.GoodsItem .itemCount {
+  font-size: 13px;
+  color: #adadad;
+}

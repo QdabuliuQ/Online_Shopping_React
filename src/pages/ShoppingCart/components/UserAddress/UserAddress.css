@@ -1,0 +1,33 @@
+#UserAddress {
+  padding: 12px;
+  background-color: #fff;
+}
+#UserAddress .addUserAddress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#UserAddress .addUserAddress .infoContent {
+  display: flex;
+  align-items: center;
+}
+#UserAddress .addUserAddress .infoContent img {
+  width: 20px;
+  margin-right: 10px;
+}
+#UserAddress .useAddressInfo .item {
+  font-size: 14px;
+}
+#UserAddress .useAddressInfo .item:not(:last-child) {
+  margin-bottom: 8px;
+}
+#UserAddress .useAddressInfo .item span {
+  color: #a2a2a2;
+}
+#UserAddress .useAddressInfo .topBox {
+  display: flex;
+  align-items: center;
+}
+#UserAddress .useAddressInfo .topBox div {
+  flex: 1;
+}

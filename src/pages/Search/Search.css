@@ -1,0 +1,19 @@
+#Search {
+  overflow: hidden;
+}
+#Search .inputContainer {
+  margin-top: 45px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e4e4e4;
+  background-color: #fff;
+}
+#Search .inputContainer .adm-input-element {
+  font-size: 15px;
+}
+#Search .resultContainer {
+  padding: 10px 15px;
+}
+#Search .resultContainer .adm-error-block {
+  margin-top: 30px;
+}

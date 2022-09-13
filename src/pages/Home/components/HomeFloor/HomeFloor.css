@@ -1,0 +1,36 @@
+.HomeFloor {
+  padding: 0 8px;
+  padding-bottom: 20px;
+}
+.HomeFloor .floorTitle {
+  width: 100%;
+}
+.HomeFloor .floorTitle img {
+  width: 100%;
+}
+.HomeFloor .floorContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+.HomeFloor .floorContainer .content1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.HomeFloor .floorContainer .content2 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.HomeFloor .floorContainer .content3 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.HomeFloor .floorContainer .content4 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.HomeFloor .floorContainer .content5 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.HomeFloor .floorContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

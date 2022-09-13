@@ -1,0 +1,21 @@
+.EditAddress .adm-form-item-label {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.EditAddress .adm-input-element {
+  font-size: 15px;
+}
+.EditAddress .clickContent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.EditAddress .clickContent img {
+  width: 17px;
+}
+.EditAddress .adm-switch-checkbox {
+  --height: 25px;
+}

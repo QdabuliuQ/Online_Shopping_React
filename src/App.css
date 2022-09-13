@@ -1,0 +1,28 @@
+#App {
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+#App .adm-checkbox-content {
+  font-size: 14px;
+}
+#App .adm-tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  border-top: 1px solid #dedede;
+  background-color: #fff;
+}
+#App .adm-nav-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  border-bottom: 1px solid #e4e4e4;
+  background-color: var(--adm-color-primary);
+  color: #fff;
+}
+#App .adm-nav-bar .adm-nav-bar-title {
+  font-size: 15px;
+}
